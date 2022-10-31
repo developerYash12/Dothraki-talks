@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dothraki | Talk</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+        body{
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            background-color: #2a932a;
+        }
+        .heading{
+            background-color: greenyellow;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 2rem;
+            
+        }
+        #inp-txt{
+            height: 15vh;
+            width: 25%;
+            display: block;
+            margin: 2% auto;
+
+        }
+        #btn{
+            padding: 1rem;
+            border-radius: 0.6rem;
+            width: 10%;
+            background: greenyellow;
+            font-size: 1rem;
+            font-weight: bold;
+            display: block;
+            margin:auto;
+            cursor: pointer;
+        }
+        #output{
+            border: 2px solid black;
+            height: 15vh;
+            width: 25%;
+            display: block;
+            margin: 2% auto;
+            background-color: white;
+
+        }
+        footer{
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            background-color: greenyellow;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+        <h1 class="heading"> Dothraki Talks</h1>
+
+        <textarea placeholder="Enter Text to Get it Translated to Orcish Language" id="inp-txt"></textarea>
+
+        <button id="btn">Translate</button>
+        <div id="output"></div>
+
+    <footer> 
+        <h2>About Dothorakis</h2>
+        <p class="about">The Dothraki are nomadic horse-mounted warriors, who sweep across the vast central plains of Essos in search of plunder. Most of their society is centered around their horses: even their name for themselves in their own language, "Dothraki", literally means "riders".</p>
+    </footer>
+
+    <script src="second.js"></script>
+</body>
+</html>
